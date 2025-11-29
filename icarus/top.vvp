@@ -1,0 +1,26 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "D:\DEVELO~1\iverilog\lib\ivl\system.vpi";
+:vpi_module "D:\DEVELO~1\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "D:\DEVELO~1\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "D:\DEVELO~1\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "D:\DEVELO~1\iverilog\lib\ivl\va_math.vpi";
+:vpi_module "D:\DEVELO~1\iverilog\lib\ivl\v2009.vpi";
+S_00000264a8bf2ca0 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_00000264a8bf2e30 .scope module, "top" "top" 3 23;
+ .timescale -9 -12;
+    .port_info 0 /INPUT 1 "clk_in";
+    .port_info 1 /OUTPUT 1 "psc";
+o00000264a8c26ac8 .functor BUFZ 1, C4<z>; HiZ drive
+L_00000264a8bf3260 .functor BUFZ 1, o00000264a8c26ac8, C4<0>, C4<0>, C4<0>;
+v00000264a8bf3480_0 .net "clk_in", 0 0, o00000264a8c26ac8;  0 drivers
+v00000264a8bf2fc0_0 .net "psc", 0 0, L_00000264a8bf3260;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "-";
+    "d:/FPGA/audio_analyze_7a35t/audio_analyze_7a35t.srcs/sources_1/new/top.v";

@@ -1,0 +1,39 @@
+{
+  "creator": "Yosys 0.48 (git sha1 aaa5347494801e9e3870b31387da59da24233f76, clang++ 18.1.2-wasi-sdk -O3)",
+  "modules": {
+    "top": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "{workspace}/audio_analyze_7a35t.srcs/sources_1/new/top.v:23.1-28.10"
+      },
+      "ports": {
+        "clk_in": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "psc": {
+          "direction": "output",
+          "bits": [ 2 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "clk_in": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "{workspace}/audio_analyze_7a35t.srcs/sources_1/new/top.v:24.11-24.17"
+          }
+        },
+        "psc": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "{workspace}/audio_analyze_7a35t.srcs/sources_1/new/top.v:25.12-25.15"
+          }
+        }
+      }
+    }
+  }
+}
